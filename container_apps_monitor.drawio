@@ -1,1 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2021-09-10T02:21:18.032Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="15.0.2" etag="WxOjzaYPtyMe3qL-cviE" type="github"><diagram id="BXAgEVD13OtPSpm7VI2x">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-10T02:35:04.430Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Z6HBNX2sD8B5-bCMixKf" version="15.0.2" type="github">
+  <diagram id="BXAgEVD13OtPSpm7VI2x" name="Page-1">
+    <mxGraphModel dx="1397" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="260" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tQd5W4hkZ3jwEKniC6Ni-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-1" value="k8s集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-2" value="容器节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="150" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-6" value="容器监控模块" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="280" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.32;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tQd5W4hkZ3jwEKniC6Ni-8" target="tQd5W4hkZ3jwEKniC6Ni-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.24;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tQd5W4hkZ3jwEKniC6Ni-8" target="tQd5W4hkZ3jwEKniC6Ni-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="280" />
+              <mxPoint x="490" y="230" />
+              <mxPoint x="512" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-8" value="应用监控模块" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-12" value="容器状态信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="334" y="220" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-13" value="" style="endArrow=classic;html=1;exitX=0.45;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tQd5W4hkZ3jwEKniC6Ni-1" target="tQd5W4hkZ3jwEKniC6Ni-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="354" y="250" as="sourcePoint" />
+            <mxPoint x="404" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="tQd5W4hkZ3jwEKniC6Ni-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="290" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="240" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-16" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="205" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-23" value="集群秘钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="160" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tQd5W4hkZ3jwEKniC6Ni-24" target="tQd5W4hkZ3jwEKniC6Ni-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="419" y="230" />
+              <mxPoint x="460" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-24" value="应用" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="170" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tQd5W4hkZ3jwEKniC6Ni-25" target="tQd5W4hkZ3jwEKniC6Ni-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-25" value="应用" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="175" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-33" value="集群秘钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="300" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-34" value="面向容器与应用的智能监控" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="426" y="370" width="146" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-40" value="注册" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="404" y="210" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-41" value="注册" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="240" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-42" value="调用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="464" y="210" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-43" value="调用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="394" y="240" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tQd5W4hkZ3jwEKniC6Ni-44" value="定时拨测模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="454" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
